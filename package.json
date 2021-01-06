@@ -8,6 +8,8 @@
   "scripts": {
     "get": "cdktf get",
     "build": "cdktf get && tsc",
+    "deploy": "cdktf deploy",
+    "destroy": "cdktf destroy",
     "synth": "cdktf synth",
     "compile": "tsc --pretty",
     "watch": "tsc -w",
