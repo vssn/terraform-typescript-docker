@@ -6,6 +6,7 @@ This example project runs a Docker Container with Nginx on your localhost:8080 a
 - Docker
 - npm
 - Terraform CDK
+- Terraform CLI
 
 ### Run the example
 Make sure that Docker is running on your machine.
