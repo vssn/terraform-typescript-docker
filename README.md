@@ -12,6 +12,7 @@ Make sure that Docker is running on your machine.
 
 ```
 npm install
+npm run get
 npm run deploy
 ```
 
@@ -19,3 +20,7 @@ npm run deploy
 ```
 npm run destroy
 ```
+
+### Troubleshooting
+#### Configuring Terraform
+You might be required to disable requests to the checkpoint api from Hashicorp. To do so, set the environment variable `CHECKPOINT_DISABLE` to any non-false value.
